@@ -15,7 +15,7 @@
 <body>
 <div style="text-align: center; width: 100%; margin-top: 50px;">
     <p>Добро пожаловать в сервис по заказу такси!</p>
-    <h3 style="margin-top: 25px;"><g:link controller="home" action="order">заказать такси</g:link></h3>
+    <h3 style="margin-top: 25px;"><g:link controller="home" action="search">заказать такси</g:link></h3>
 </div>
 </body>
 </html>
