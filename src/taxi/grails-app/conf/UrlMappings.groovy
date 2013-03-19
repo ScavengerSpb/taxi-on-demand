@@ -8,6 +8,7 @@ class UrlMappings {
 		}
 
         "/" (controller: "home", action: "index")
+        "/$action" (controller: "home")
 
 		"/debug"(view:"/debug/index")
 		"500"(view:'/debug/error')

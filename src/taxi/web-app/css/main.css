@@ -12,3 +12,46 @@ body {
     border: 1px #000;
     border-style: solid none;
 }
+
+.address {
+    font-weight: bold;
+}
+
+.address-set {
+    display: inline-block;
+    text-align: left;
+}
+
+.address-set p {
+    margin-top: 12px;
+}
+
+.address-set p:first-of-type {
+    margin-top: 5px;
+}
+
+.address-set .street {
+    width: 300px;
+}
+
+.address-set label {
+    padding-right: 7px;
+}
+
+.address-set input {
+}
+
+.ride .search {
+    margin-top: 12px;
+}
+
+table.offers {
+    display: inline-block;
+    margin-top: 12px;
+    border-collapse:collapse;
+}
+
+table.offers td, table.offers th {
+    padding: 4px 7px;
+    border: #000000 solid 1px;
+}
